@@ -1,11 +1,15 @@
 {
   "name": "@retzloff/aw-protoloader",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "license": "Apache-2.0",
   "repository": "retzloff/aw-protoloader",
   "main": "index.js",
   "keywords": [
-    "grpc", 
+    "grpc",
     "protobuf"
-  ]
+  ],
+  "dependencies": {
+    "@grpc/grpc-js": "^0.4.0",
+    "@grpc/proto-loader": "^0.5.1"
+  }
 }
